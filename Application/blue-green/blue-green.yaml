@@ -9,8 +9,8 @@ spec:
   to:
     kind: Service
     name: user10-hello-chart
-    weight: 5
+    weight: 10
   alternateBackends:
   - kind: Service
     name: user10-hello-world
-    weight: 0
+    weight: 10
