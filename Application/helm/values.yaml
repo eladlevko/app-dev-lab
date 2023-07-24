@@ -2,7 +2,7 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/elad_levkovitch/argocd:v2'
+  image: 'quay.io/elad_levkovitch/argocd:chart_v1'
   tag: 'base'
 
 service:
