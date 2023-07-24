@@ -10,5 +10,5 @@ spec:
     name:  {{ .Release.Name }}-service
     weight: 100
   port:
-    targetPort: {{ .Values.service.servicePort }}0
+    targetPort: {{ .Values.service.servicePort }}
   wildcardPolicy: None
