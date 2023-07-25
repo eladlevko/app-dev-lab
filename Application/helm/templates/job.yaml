@@ -22,4 +22,6 @@ spec:
            value: '{{ .Release.Name }}-service'
          - name: PORT
            value: '{{ .Values.service.servicePort }}'
+         - name: TEST
+           value: "{{ .Values.test }}"
   backoffLimit: 1
