@@ -24,4 +24,4 @@ containers:
   tag: 'chart_v1'
 service:
   servicePort: 8080
-test: Null
+test: 'Healthy'
