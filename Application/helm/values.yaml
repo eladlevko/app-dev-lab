@@ -26,6 +26,6 @@ service:
   servicePort: 8080
 test: 'Healthy'
 github:
-  user: # Your GitHub User name
+  user: eladlevko
   token: empty-pass
   url: 'https://api.github.com/repos/eladlevko/app-dev-lab/issues'
