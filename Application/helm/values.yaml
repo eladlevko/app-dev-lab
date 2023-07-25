@@ -24,7 +24,7 @@ containers:
   tag: 'chart_v1'
 service:
   servicePort: 8080
-test: 'Healthy'
+test: null
 github:
   user: eladlevko
   token: empty-pass
