@@ -22,6 +22,6 @@ containers:
   containerPort: 8080
   image: 'quay.io/elad_levkovitch/argocd'
   tag: 'chart_v1'
-
 service:
   servicePort: 8080
+test: 'Healthy'
