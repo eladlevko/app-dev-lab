@@ -8,7 +8,7 @@ metadata:
 spec:
   to:
     kind: Service
-    name: user10-hello-chart
+    name: user10-hello-chart-service
     weight: 10
   alternateBackends:
   - kind: Service
