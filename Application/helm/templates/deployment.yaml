@@ -34,8 +34,7 @@ spec:
           volumeMounts:
             - name: index-html
               mountPath: /tmp/html 
-  # this will mount the html.index file to it application location 
-
+# this will mount the html.index file to it application location 
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
