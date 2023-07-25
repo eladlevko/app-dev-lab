@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       Annotations:
-        test: 'TTTTT' #'{{ include (print $.Template.BasePath"/ConfigMap.yaml") . | sha256sum | quote }}'
+        checksum/config: {{ include (print $.Template.BasePath "/ConfigMap.yaml") . | sha256sum }} #'{{ include (print $.Template.BasePath"/ConfigMap.yaml") . | sha256sum | quote }}'
       labels:
 # set your lab user name
         app: {{ .Release.Name }}
