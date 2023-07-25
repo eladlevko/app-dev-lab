@@ -11,8 +11,8 @@ spec:
       app: {{ .Release.Name }}
   template:
     metadata:
-      # Annotations:
-      #   checksum/config: {{ include (print $.Template.BasePath"/ConfigMap.yaml") . | sha256sum }}
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/ConfigMap.yaml") . | sha256sum }}
       labels:
 # set your lab user name
         app: {{ .Release.Name }}
